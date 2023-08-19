@@ -7,7 +7,7 @@ This Tampermonkey script is designed to add two new download options to the [ico
 ## Installation
 
 1. Install the Tampermonkey extension for your browser.
-2. Click on the following link and click the "install" button: **[link to script](https://github.com/yee94/tampermonkey-iconfont-iconify/raw/main/index.user.js)**
+2. Click on the following link and click the "install" button: **[link to script](https://github.com/wuyax/tampermonkey-iconfont-iconify/raw/main/index.user.js)**
 3. Go to [iconfont.cn](https://www.iconfont.cn/) and open the project you want to download.
 
 ## Usage
