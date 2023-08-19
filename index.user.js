@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Iconfont React
-// @version      1.0.3
+// @version      1.0.4
 // @description  下载 React ICON 组件
 // @author       yee.wang
 // @include      https://*.iconfont.cn/*

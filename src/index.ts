@@ -72,7 +72,7 @@ window.iconfontRunMain = async () => {
           icons.reduce((obj, item) => {
             const svg = new SVG(item.show_svg);
             return Object.assign(obj, {
-              [toKebabCase(item.name)]: {
+              [toKebabCase(item.font_class)]: {
                 body: svg.getBody(),
                 ...svg.viewBox,
               },
@@ -180,7 +180,7 @@ function toCamelCase(str) {
 function makeIconifyJson(prefix, icons) {
   return {
     prefix,
-    lastModified: 1673023160,
+    lastModified: new Date().getTime(),
     icons,
     width: 1024,
     height: 1024,
